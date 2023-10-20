@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #222;
+}
+
+.box{
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    color: turquoise;
+    font-family: cursive;
+    font-weight: 900;
+    font-size: 5rem;
+}
+
+.main{
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    font-style: italic;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 50px auto;
+}
+
+.main div{
+    line-height: 5rem;
+}
+
+.main img{
+    height: 200px;
+}
+
+button{
+    background-color: white;
+    height: 100px;
+    width: 200px;
+    border: none;
+    border-radius: 10px;
+    font-size: 2rem;
+    color: turquoise;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.btn{
+    width: 100%;
+    margin: 100px auto;
+    display: flex;
+    justify-content: center;
+}
